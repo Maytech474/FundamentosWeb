@@ -1,67 +1,99 @@
-
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8"/>               
+<html lang="en">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Estrutura Básica HTML</title>  
-</head>
-<style>                              
-     body{                            
-          text-decoration: underline;
-          font-size:20px;           
-          text-align: center;        
-}
-     #BlogPessoal{
-          width: 100%;                
-          height: 100px;              
-          border: 6px solid #00000071;    
-          background: #4013948f;        
-}
-     #menu{
-         float: left;                 
-         min-height: 360px;           
-         width: 250px;                
-         border: 6px solid black;     
-         background: #8b8b83;         
-}
-     #conteudo{
-         min-height: 300px;           
-         border: 6px solid black;   
-         background: hsla(0, 0%, 100%, 0.61);           
-}
-     #rodape{
-         height: 50px;                
-         border: 6px solid black;     
-         background: #CDCDC1;         
-}
-</style>
-<body>
-<div id="BlogPessoal"><h1></i>[BLOG PESSOAL]</i></div></h1>  
-<div id="menu"><h1>Menu </h1>   
-     <img src="assets\img\skate_skateboard_skater_sport_icon_123975.png" alt="board">                
-     <ul>                               
-        <a href="index.html"> Home </a><br><br>
-        <a href="contato.html"> Contato </a>
-     
-     </ul>
-</div><br><br>
-<div id="conteudo"><h1>Conteúdo</h1>
-    <p><img src="assets\img\Skateboard-icon_30276.png"alt="skate"> Meu nome é Maicon, tenho 25 anos e moro em Mogi-Mirim,SP<br>
-       Gosto de Skate e Tecnolgia e sou apaixonado por inovação
-    </p>
-    <img src="assets\img\androidskate.png" alt="Minha foto">
-    
-    </h2> 
-    <h2>Meu video favorito </h2>
-    <iframe width="560"
-     height="315" src="https://www.youtube.com/embed/E1ATeGCecWI?start=7"
-      title="YouTube video player" frameborder="10"
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>    
-</div>
 
-<div id="rodape">Rodapé</div>         
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="assets\css\style.css">
+</head>
+<body>
+    
+    <header>
+          <div id="BlogPessoal"><img src="assets\img\Blog pessoal.png" alt="blog" >
+          </div>    
+      </div>
+      </header>
+
+      <main>
+      <ul id="menu">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+        <li>
+          <a href="contato.html"> Contato </a>
+        </li>
+      </ul>
+    
+        <div class="p-30">
+          <p class="justify"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            odio possimus, dolorem earum atque itaque quas soluta placeat iure
+            omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+            inventore ullam, quia deserunt enim cumque hic officia repudiandae ad
+            ab et sapiente qui vitae accusamus adipisci provident sit assumenda
+            laboriosam!
+          </p>
+
+          <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos
+            dolore eius tenetur sunt illum inventore asperiores officia voluptates
+            expedita explicabo perspiciatis! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptates distinctio velit, eveniet
+            placeat reiciendis, eum et tempora fuga doloribus repellendus,
+            possimus rem tempore ipsam aut eligendi beatae quidem saepe
+            temporibus.
+          </p>
+        </div>
+        <div id="img">
+          <img src="assets\img\img.png" alt="img">
+        </div>
+
+        <h2 class="center">Meu video predileto:</h2>
+        <div class="container mb-50">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JNl1_hRwpXE" title="YouTube video player"
+            frameborder="6"
+            allow="
+            accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        
+          </iframe>
+
+      </div>
+      <hr/>
+
+      </main>
+
+    <footer>
+      <script type="text/javascript"></script>
+      <div class="container">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/facebook.png"
+            alt="Logo do Facebook"
+          />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/linkedin.png"
+            alt="Logo do Linkedin"
+          />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assets/img/instagram.png"
+            alt="Logo do Intagram"
+          />
+        </a>
+      </div>
+      <p class="center">Todos os direitos reservados: Maicon Bonfim Izidoro(Generation) &copy</p>
+    </footer>
+    
 </body>
 </html>
