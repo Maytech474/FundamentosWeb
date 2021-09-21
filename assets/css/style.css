@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-
-    body {
+body {
       background: #232434;
       color: #f4f4f4
     }  
@@ -211,63 +209,5 @@ fieldset.grupo .campo {
 }
 
 
-=======
-    
-.BlogPessoal{
-    width: 100%;                
-    height: 120px;              
-    border: 1px solid black; 
-    justify-content: center;       
-    align-items: 360px;
-    
-    -ms-flex-item-align: center;
-                  
-}
 
-#menu{
-   display: center;                 
-   min-height: 360px;           
-   width: 200px;                
-   border: 6px solid #9b4f9700;     
-   background: #8b8b83; 
-    
-       
-}
-#conteudo{
-   display: center;
-   min-height: 300px;           
-   border: 4px solid black;   
-   background: rgba(141, 8, 218, 0.068);           
-}
-#rodape{
-   height: 50px;                
-   border: 4px solid black;     
-   background: #CDCDC1;         
-}
-
-body{                            
-    text-decoration: underline;
-    font-size:20px;           
-    text-align: center;        
-}
-
-#menu{
-   float: left;                 
-   min-height: 360px;           
-   width: 200px;                
-   border: 6px solid black;     
-   background: #8b8b83;         
-}
-#conteudo{
-   min-height: 300px;           
-   border: 4px solid black;   
-   background: rgba(39, 8, 218, 0.027);           
-}
-#rodape{
-   height: 50px;                
-   border: 4px solid black;     
-   background:#8b8b83        
-}
-
->>>>>>> 4e1148e10580a4c2aeac13a141c3869d7374c6d4
 
