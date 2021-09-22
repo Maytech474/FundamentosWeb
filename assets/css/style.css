@@ -1,5 +1,7 @@
+
+//corpo do da estilização da página
 body {
-<<<<<<< HEAD
+
   background: #232434;
   color: #f4f4f4;
   font-family: sans-serif;
@@ -8,7 +10,7 @@ body {
 .center {
   text-align: center;
 }
-=======
+
       background: #232434;
       color: #f4f4f4
     }  
@@ -39,7 +41,6 @@ body {
       justify-content: center;
     }
     
->>>>>>> 74acb326ec791a87ce56d98033b4834bc6d22202
 
 .justify {
   text-align: justify;
@@ -116,7 +117,7 @@ justify-content:center;
   justify-content:center ;      
   align-items: center;
   display: flex;
->>>>>>> 74acb326ec791a87ce56d98033b4834bc6d22202
+
 }
 
 #img{
