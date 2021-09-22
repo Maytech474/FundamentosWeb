@@ -29,6 +29,7 @@ body {
       justify-content: center;
       align-items: center;
     }
+
     .container {
       display: flex;
       flex-direction: column;
@@ -94,7 +95,6 @@ align-items: center;
 
 }
 
-<<<<<<< HEAD
 #foto{
 display: flex;
 justify-content:center;
@@ -109,6 +109,7 @@ justify-content:center;
   align-items: center;
   display: flex;
 }
+  
 #BlogPessoal1{
   width: 100%;                
   height: 110px; 
@@ -133,6 +134,7 @@ display: flex;
 margin: auto;
 justify-content: center;
 }
+  
 #BlogPessoal1{
 width: 100%;                
 height: 100px;           
@@ -283,7 +285,7 @@ text-shadow: none;
 
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
-<<<<<<< HEAD
+
 cursor: pointer;
 }
 
