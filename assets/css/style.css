@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   background: #232434;
   color: #f4f4f4;
   font-family: sans-serif;
@@ -8,38 +7,6 @@ body {
 .center {
   text-align: center;
 }
-=======
-      background: #232434;
-      color: #f4f4f4
-    }  
-  
-    .center {
-      text-align: center;
-    }
-    
-    .justify {
-      text-align: justify;
-    }
-    
-    .container {
-      display: flex;
-      flex-flow: row;
-      justify-content: center;
-      align-items: center;
-    }
-    .container {
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      width: 100%;
-    }
-    
-    #menu {
-      display: flex;
-      justify-content: center;
-    }
-    
->>>>>>> 74acb326ec791a87ce56d98033b4834bc6d22202
 
 .justify {
   text-align: justify;
@@ -50,13 +17,6 @@ body {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-}
-.container .mb-50 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
-  justify-content: center;
 }
 
 #menu {
@@ -69,7 +29,8 @@ body {
 display: flex;
 justify-content: center;
 margin: 0 auto;
-width: 100%;
+width: 30%;
+border-radius: 6px;
 }
 #menu li {
 display: inline;
@@ -90,40 +51,14 @@ color: #08f500d0;
 #menu{
 justify-content: flex-start;
 align-items: center;
-
-}
-
-<<<<<<< HEAD
-#foto{
 display: flex;
-justify-content:center;
-=======
-      
-#BlogPessoal{
-  width: 100%;                
-  height: 80px; 
-  background: #fafbff;           
-  border: 2px solid black; 
-  justify-content:center ;      
-  align-items: center;
-  display: flex;
-}
-#BlogPessoal1{
-  width: 100%;                
-  height: 110px; 
-  background: #fafbff;           
-  border: 2px solid black; 
-  justify-content:center ;      
-  align-items: center;
-  display: flex;
->>>>>>> 74acb326ec791a87ce56d98033b4834bc6d22202
+
 }
 
-#img{
+#mapa{
 display: flex;
-justify-content:center;
-border: 2px solid rgb(87, 0, 248);
 }
+
   
 #BlogPessoal{
 width: 31%;                
@@ -140,18 +75,29 @@ justify-content: center;
 display: flex;
 }
 
+#img1{ 
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+
+.p-40{
+  width: 330px;
+  height: 80px;
+  border: 2px solid rgb(87, 0, 248);
+
+}
+
 .flex {
   width: 80%;
   margin: 0 auto
   
 }
 
-@media (max-width: 500px){
-body{
-  background: #232434;
-  color: #f4f4f4
-}
-}
+
+
+
         
 .p-30 {
 padding: 60px;
@@ -160,6 +106,8 @@ padding: 60px;
 .br-50 {
 border-radius: 50%;
 border: 2px solid rgb(87, 0, 248);
+display: flex;
+justify-content: auto;
 }
 
 .wh-400 {
@@ -201,7 +149,7 @@ margin-bottom: 1.250rem;
 input, select, textarea, button {
 font-family: sans-serif;
 font-size: 1em;
-color: #59429d;
+color: #683deb;
 border-radius: 6px;
 }
 
@@ -258,6 +206,8 @@ grupo:before, .grupo:after {
   display: table;
 }
 
+
+/*elementos do botão de ENVIAR do formulário*/
 .botao {
 font-size: 1.2em;
 background: #59429d;
@@ -275,19 +225,12 @@ display: flex;
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
-background: #CCBBFF;
+background: #ccbbfff6;
 box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
 text-shadow: none;
 }
 
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
-<<<<<<< HEAD
 cursor: pointer;
 }
-=======
-    cursor: pointer;
-}
-
-
->>>>>>> 74acb326ec791a87ce56d98033b4834bc6d22202
